@@ -1,1 +1,1 @@
-# crm_team01
+# crm_team01.gitignore
