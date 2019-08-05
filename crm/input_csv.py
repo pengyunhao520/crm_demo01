@@ -15,3 +15,5 @@ if __name__ == '__main__':
     #D:\csv\上下班打卡_日报_20190701-20190717.csv
     filePath=str(input("请输入路径"))
     reader=ReadFile.read_csv(filePath)
+    for rea in reader:
+        print(rea[1])
