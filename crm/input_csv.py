@@ -8,9 +8,6 @@ class ReadFile:
         with open(path, 'r',encoding="utf-8") as f:
             resd_row = []
             reader = csv.reader(f)
-            #获取真正的数据
-
-            print(reader)
             for row in reader:
                 resd_row.append(row)
             return resd_row
